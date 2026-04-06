@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: skills-getting-started-with-github-copilot
+  description: |
+    skills getting started repo for github copilot.
+  links:
+    - title: Github URL
+      url: https://github.com/ahmedyasin-eaton/skills-getting-started-with-github-copilot
+  annotations:
+    github.com/project-slug: ahmedyasin-eaton/skills-getting-started-with-github-copilot
+    # backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://github.com/ahmedyasin-eaton/skills-getting-started-with-github-copilot
+spec:
+  type: library
+  owner: Ahmed Yaseen
+  lifecycle: production
