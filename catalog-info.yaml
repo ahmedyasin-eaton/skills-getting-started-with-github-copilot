@@ -20,17 +20,17 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: examples
+  name: skills
 spec:
   owner: Ahmed Yaseen
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: example-website
+  name: sills-website
 spec:
   type: website
   lifecycle: experimental
-  owner: guests
-  system: examples
+  owner: Ahmed Yaseen
+  system: skills
   providesApis: [example-grpc-api]
